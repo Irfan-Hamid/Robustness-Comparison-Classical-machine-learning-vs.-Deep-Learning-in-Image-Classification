@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 #For perbutation 1 
 standard_deviations = [1,2,3,4,5,6,7,8,9,10]
 
-# Plotting the data
+# Plotting data
 plt.figure(figsize=(10, 6))
 plt.plot(standard_deviations, accuracy_scores_perb_one, label='Classical ML Model - Random Forest', marker='o')
 plt.plot(standard_deviations, accuracies_noise_dl, label='Deep Learning Model - AlexNet Model ', marker='x')
