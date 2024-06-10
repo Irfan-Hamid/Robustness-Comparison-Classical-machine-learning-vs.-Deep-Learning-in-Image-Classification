@@ -37,7 +37,7 @@ transform_val_test_data = transforms.Compose([
     transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
 ])
 
-# Loadinf training data
+# Loading training data
 train_dataset = datasets.ImageFolder(root="../dataset_original/train/", transform=transform_training_data)
 
 
