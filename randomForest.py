@@ -27,7 +27,7 @@ def directory_check():
     else:
         print(f"Directory {target_dir} does not exist. Please check the path.")
 
-#directory_check()
+#directory_checks()
 
 # Function to load images from a given directory
 def load_images_from_folder(folder):
