@@ -5,7 +5,7 @@ Files
 - `plotting.py`: Provides a detailed comparative analysis of the performances of both RandomForest and AlexNet across all permutations through graphical representations.
 
 
-Prerequisites
+Prerequisite
 - Python 3.10
 
 
